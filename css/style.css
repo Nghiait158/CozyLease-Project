@@ -11,7 +11,8 @@
     border-radius: 10px;
 }
 .navbar-text{
-    color: #5ba7b7;
+    color: #20d0f3;
+    font-size: 20px;
 }
 .custom-nav .custom-nav-item a {
     color: #fff !important;
@@ -46,7 +47,7 @@ video{
 }
 .navbar-nav {
     --bs-nav-link-padding-x: 0;
-    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-padding-y: -2rem;
     --bs-nav-link-font-weight: ;
     --bs-nav-link-color: var(--bs-navbar-color);
     --bs-nav-link-hover-color: var(--bs-navbar-hover-color);
@@ -57,9 +58,11 @@ video{
     margin-bottom: 0;
     list-style: none;
 }
-.navbar {
-    bs-navbar-brand-font-size: 2.25rem;
+.navbar-brand {
+    font-size: 50px;
 }
+
+
 .my-content{
     font-family: "Pacifico", cursive;
     font-weight: 500;
@@ -105,13 +108,27 @@ body{
     background-color: black;
 }
 @media screen and (min-width:0px) and (max-width:700px) {
-    .my-content{
+    .my-content,
+    .txt-banner{
         display: none;
     }
-    .form-control{
+    .vid-content{
+        top:12%;
+        left:60%
+    }
+    .custom-nav .custom-nav-item a{
+        padding: 10px, 20px;
+        background-color:#225470;
+    }
+    .custom-nav-item:hover{
+        background-color: none;
+        border: none;
+        border-radius: none;
+    }
+    /* .form-control{
         display: none;
     }
     .btn-outline-success{
         display: none;
-    }
+    } */
 }
