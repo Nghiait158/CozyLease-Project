@@ -1,14 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>
-        
-    </h1>
-</body>
-</html>
+<!-- START header -->
+<?php
+  include('mainPart/header.php')
+?>
+<!-- END HEADER -->
+<h1>
+    hellp
+</h1>
+<!-- Footer -------------------------------------->
+<?php
+include('mainPart/footer.php')
+?>
 
+<!-- ENd footer ----------------------------------- -->
